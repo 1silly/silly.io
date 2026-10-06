@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>silly.io</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/1silly2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =========================
+         BACKGROUND
+    ========================== -->
+
+    <div class="background">
+        <div class="stars stars-one"></div>
+        <div class="stars stars-two"></div>
+        <div class="stars stars-three"></div>
+
+        <div class="nebula nebula-one"></div>
+        <div class="nebula nebula-two"></div>
+
+        <div class="shooting-star shooting-one"></div>
+        <div class="shooting-star shooting-two"></div>
+        <div class="shooting-star shooting-three"></div>
+    </div>
+
+    <div class="cursor-glow"></div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <button class="brand" data-tab="home">
+            <span class="brand-dot"></span>
+            <span>silly<span class="brand-gradient">.io</span></span>
+        </button>
+
+        <nav class="nav-links">
+
+            <button class="nav-button active" data-tab="home">
+                <span>💼 </span>
+                Home
+            </button>
+
+            <button class="nav-button" data-tab="info">
+                <span>❤️</span>
+                Info
+            </button>
+
+            <button class="nav-button" data-tab="developers">
+                <span>🔐</span>
+                Developers
+            </button>
+
+            <button class="nav-button" data-tab="features">
+                <span>⭐</span>
+                Features
+            </button>
+
+            <button class="nav-button discord-nav" data-tab="discord">
+                <span>🎃</span>
+                Discord
+            </button>
+
+        </nav>
+
+        <button class="mobile-menu" id="mobileMenu">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- =====================
+             HOME
+        ====================== -->
+
+        <section class="tab-page home-page active" id="home">
+
+            <div class="hero">
+
+                <div class="hero-badge">
+                    <span class="status-dot"></span>
+                    welcome to silly.io
+                </div>
+
+                <h1 class="main-title">
+                    silly<span>.io</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    a tiny corner of the internet made with
+                    <span class="gradient-text">
+                        love, chaos & creativity.
+                    </span>
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-button" data-go="info">
+                        Explore
+                        <span>→</span>
+                    </button>
+
+                    <button class="secondary-button" data-go="discord">
+                        Join our Discord
+                        <span>♡</span>
+                    </button>
+
+                </div>
+
+                <div class="hero-scroll">
+                    <span></span>
+                    scroll to explore
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-one">
+                <span>✦</span>
+                Development Team
+            </div>
+
+            <div class="floating-card floating-two">
+                <span>♡</span>
+                All Jokes and Vibes
+            </div>
+
+            <div class="floating-card floating-three">
+                <span>✧</span>
+                Projects worth playing 
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================
+             INFO
+        ====================== -->
+
+        <section class="tab-page" id="info">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    01 / INFO
+                </span>
+
+                <h2>
+                    Welcome to
+                    <span class="gradient-text">
+                        silly.io
+                    </span>
+                </h2>
+
+                <p>
+                    Something small, pretty and slightly silly.
+                    A little home for projects, ideas,
+                    creativity and community.
+                </p>
+
+            </div>
+
+
+            <div class="info-grid">
+
+                <div class="glass-card large-card">
+
+                    <div class="card-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        What is silly.io?
+                    </h3>
+
+                    <p>
+                        We're a community built around development, creativity, and making things that probably should've stayed as ideas.
+
+                        From games and applications to websites, art, coding, and completely questionable projects, this is a place to build, experiment, share your work, and learn from other creators.
+
+                        We like serious development, but we don't take ourselves too seriously. One day you're debugging a C++ project, the next you're making Tax Evasion Simulator, Court Date Simulator, or wondering why Final_Final_REAL_Final_v47 somehow became the production build.
+                    </p>
+
+                    <div class="card-line"></div>
+
+                    <span class="small-text">
+                        made by silly.io team ♡
+                    </span>
+
+                </div>
+
+
+                <div class="glass-card">
+
+                    <div class="card-icon pink">
+                        ♡
+                    </div>
+
+                    <h3>
+                        Our vibe
+                    </h3>
+
+                    <p>
+                        Making games no one asked for, yes they are stupid as hell but it's fun.
+                    </p>
+
+                </div>
+
+
+                <div class="glass-card">
+
+                    <div class="card-icon purple">
+                        ✧
+                    </div>
+
+                    <h3>
+                        What we do
+                    </h3>
+
+                    <p>
+                        We build websites, applications,
+                        communities and whatever else we
+                        randomly decide to create.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================
+             DEVELOPERS
+        ====================== -->
+
+        <section class="tab-page" id="developers">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    02 / DEVELOPERS
+                </span>
+
+                <h2>
+                    Meet the
+                    <span class="gradient-text">
+                        developers
+                    </span>
+                </h2>
+
+                <p>
+                    The people behind the pixels,
+                    bugs and questionable decisions.
+                </p>
+
+            </div>
+
+
+            <div class="developer-grid">
+
+
+                <!-- 1SILLY -->
+
+                <div class="developer-card">
+
+                    <div class="developer-top">
+
+                        <div class="developer-pfp">
+
+                            <img
+                                src="image/1silly.png"
+                                alt="1silly"
+                                onerror="this.src='image/icon.png'"
+                            >
+
+                            <span class="online-dot"></span>
+
+                        </div>
+
+                        <div class="developer-info">
+
+                            <h3>
+                                1silly
+                            </h3>
+
+                            <span class="developer-rank owner">
+                                Owner & Developer
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <p>
+                        The founder of silly.io, a developer.
+                        
+                    </p>
+
+                    <div class="developer-footer">
+
+                        <span>
+                            ✦ silly.io
+                        </span>
+
+                        <span>
+                            ♡
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DEVELOPER 2 -->
+
+                <div class="developer-card">
+
+                    <div class="developer-top">
+
+                        <div class="developer-pfp">
+
+                            <img
+                                src="image/1silly.png"
+                                alt="Developer"
+                                onerror="this.src='image/icon.png'"
+                            >
+
+                            <span class="online-dot"></span>
+
+                        </div>
+
+                        <div class="developer-info">
+
+                            <h3>
+                                Developer 2 / NA
+                            </h3>
+
+                            <span class="developer-rank">
+                                Developer
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <p>
+                        Helping turn random ideas into
+                        actual projects.
+                    </p>
+
+                    <div class="developer-footer">
+
+                        <span>
+                            ✦ developer
+                        </span>
+
+                        <span>
+                            ♡
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DEVELOPER 3 -->
+
+                <div class="developer-card">
+
+                    <div class="developer-top">
+
+                        <div class="developer-pfp">
+
+                            <img
+                                src="image/1silly.png"
+                                alt="Developer"
+                                onerror="this.src='image/icon.png'"
+                            >
+
+                            <span class="online-dot"></span>
+
+                        </div>
+
+                        <div class="developer-info">
+
+                            <h3>
+                                Developer 3 / NA
+                            </h3>
+
+                            <span class="developer-rank contributor">
+                                Contributor
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <p>
+                        Contributing ideas, code and
+                        questionable amounts of CSS.
+                    </p>
+
+                    <div class="developer-footer">
+
+                        <span>
+                            ✦ contributor
+                        </span>
+
+                        <span>
+                            ♡
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================
+             FEATURES
+        ====================== -->
+
+        <section class="tab-page" id="features">
+
+            <div class="section-header">
+
+                <span class="section-label">
+                    03 / FEATURES
+                </span>
+
+                <h2>
+                    Built to be
+                    <span class="gradient-text">
+                        different from the rest.
+                    </span>
+                </h2>
+
+                <p>
+                    A few of the things hiding inside silly.io.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        01
+                    </span>
+
+                    <div class="feature-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Animated UI
+                    </h3>
+
+                    <p>
+                        Smooth transitions, floating elements
+                        and tiny details everywhere.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        02
+                    </span>
+
+                    <div class="feature-icon">
+                        ☾
+                    </div>
+
+                    <h3>
+                        Cosmic Theme
+                    </h3>
+
+                    <p>
+                        Deep black backgrounds with stars,
+                        nebulae and soft glowing gradients.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        03
+                    </span>
+
+                    <div class="feature-icon">
+                        ♡
+                    </div>
+
+                    <h3>
+                        Community
+                    </h3>
+
+                    <p>
+                        Meet people, share projects and
+                        hang out with the community.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        04
+                    </span>
+
+                    <div class="feature-icon">
+                        ∞
+                    </div>
+
+                    <h3>
+                        Always Growing
+                    </h3>
+
+                    <p>
+                        New ideas, projects and features
+                        are constantly being added.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================
+             DISCORD
+        ====================== -->
+
+        <section class="tab-page discord-page" id="discord">
+
+            <div class="discord-container">
+
+                <div class="discord-orbit">
+
+                    <div class="orbit-dot"></div>
+
+                    <div class="discord-symbol">
+                        💯
+                    </div>
+
+                </div>
+
+                <span class="section-label">
+                    04 / COMMUNITY
+                </span>
+
+                <h2>
+                    Come hang out
+                    <span class="gradient-text">
+                        with us.
+                    </span>
+                </h2>
+
+                <p>
+                    Join the silly.io Discord server to chat,
+                    meet people, share projects and stay updated.
+                </p>
+
+                <a
+                    href="https://discord.gg/WnmEAZktzw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="discord-join"
+                >
+                    Join Discord
+                    <span>→</span>
+                </a>
+
+                <div class="discord-status">
+
+                    <span class="status-dot"></span>
+
+                    community online
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            silly<span>.io</span>
+        </div>
+
+        <p>
+            made with ♡ and a little bit of chaos
+        </p>
+
+        <span>
+            © 2026 silly.io
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
